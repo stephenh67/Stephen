@@ -1,0 +1,397 @@
+{
+ "A_accuracy": {
+  "A_supported": {
+   "correct": 19,
+   "n": 20,
+   "wilson95": [
+    0.7639,
+    0.9911
+   ]
+  },
+  "A2_distorted_claim": {
+   "correct": 24,
+   "n": 27,
+   "wilson95": [
+    0.7194,
+    0.9615
+   ]
+  }
+ },
+ "over_strictness_A_refusals": {
+  "A_supported": 1,
+  "A2_distorted_claim": 2
+ },
+ "Det_A": 0.9362,
+ "negative_cells": 368,
+ "noise_answered_NEI_vs_REFUSAL": {
+  "NOT_ENOUGH_INFO": 117,
+  "REFUSAL": 1,
+  "n": 126
+ },
+ "FDR_neg": 0.0951,
+ "FDR_neg_SUP": 0.0543,
+ "FDR_neg_REF": 0.0408,
+ "FDR_strict": 0.0951,
+ "Acc_A": 0.9149,
+ "J_gate": 0.8198,
+ "per_arm": {
+  "A_genuine": {
+   "acceptable": 43,
+   "n": 47,
+   "wilson95": [
+    0.8007,
+    0.9664
+   ]
+  },
+  "B_empty": {
+   "acceptable": 47,
+   "n": 47,
+   "wilson95": [
+    0.9244,
+    1.0
+   ]
+  },
+  "C_noise_length": {
+   "acceptable": 47,
+   "n": 47,
+   "wilson95": [
+    0.9244,
+    1.0
+   ]
+  },
+  "C_num_noise": {
+   "acceptable": 39,
+   "n": 47,
+   "wilson95": [
+    0.6986,
+    0.9111
+   ]
+  },
+  "D_noise_topic": {
+   "acceptable": 32,
+   "n": 32,
+   "wilson95": [
+    0.8928,
+    1.0
+   ]
+  },
+  "E_contradicting": {
+   "acceptable": 12,
+   "n": 13,
+   "wilson95": [
+    0.6669,
+    0.9863
+   ],
+   "small_n": true
+  },
+  "E_restore": {
+   "acceptable": 26,
+   "n": 27,
+   "wilson95": [
+    0.8172,
+    0.9934
+   ],
+   "small_n": true
+  },
+  "F_unrelated": {
+   "acceptable": 47,
+   "n": 47,
+   "wilson95": [
+    0.9244,
+    1.0
+   ]
+  },
+  "G_deranged": {
+   "acceptable": 47,
+   "n": 47,
+   "wilson95": [
+    0.9244,
+    1.0
+   ]
+  },
+  "H_high_overlap": {
+   "acceptable": 28,
+   "n": 28,
+   "wilson95": [
+    0.8794,
+    1.0
+   ],
+   "small_n": true
+  },
+  "M_diluted": {
+   "acceptable": 42,
+   "n": 47,
+   "wilson95": [
+    0.7741,
+    0.9537
+   ]
+  },
+  "N_no_source": {
+   "acceptable": 1,
+   "n": 1,
+   "wilson95": [
+    0.2065,
+    1.0
+   ],
+   "small_n": true
+  },
+  "P_forecast_borrowed": {
+   "acceptable": 0,
+   "n": 1,
+   "wilson95": [
+    0.0,
+    0.7935
+   ],
+   "small_n": true
+  },
+  "P_forecast_own": {
+   "acceptable": 0,
+   "n": 1,
+   "wilson95": [
+    0.0,
+    0.7935
+   ],
+   "small_n": true
+  },
+  "P_forecast_weaken": {
+   "acceptable": 1,
+   "n": 1,
+   "wilson95": [
+    0.2065,
+    1.0
+   ],
+   "small_n": true
+  },
+  "R_disagree": {
+   "acceptable": 0,
+   "n": 1,
+   "wilson95": [
+    0.0,
+    0.7935
+   ],
+   "small_n": true
+  },
+  "R_pair": {
+   "acceptable": 13,
+   "n": 40,
+   "wilson95": [
+    0.2008,
+    0.4798
+   ]
+  },
+  "S_same_document": {
+   "acceptable": 25,
+   "n": 28,
+   "wilson95": [
+    0.728,
+    0.9629
+   ],
+   "small_n": true
+  }
+ },
+ "per_family": {
+  "cited_source_absent": {
+   "n": 1,
+   "acceptable": 1,
+   "expected_exact": 1,
+   "unacceptable_determinate": 0,
+   "wilson95": [
+    0.2065,
+    1.0
+   ],
+   "fixed_claim": false,
+   "small_n": true
+  },
+  "conflicting_sources": {
+   "n": 41,
+   "acceptable": 13,
+   "expected_exact": 13,
+   "unacceptable_determinate": 24,
+   "wilson95": [
+    0.1956,
+    0.4698
+   ],
+   "fixed_claim": true
+  },
+  "contradicting_distortion": {
+   "n": 13,
+   "acceptable": 12,
+   "expected_exact": 12,
+   "unacceptable_determinate": 1,
+   "wilson95": [
+    0.6669,
+    0.9863
+   ],
+   "fixed_claim": true,
+   "small_n": true
+  },
+  "diluted_support": {
+   "n": 47,
+   "acceptable": 42,
+   "expected_exact": 42,
+   "unacceptable_determinate": 2,
+   "wilson95": [
+    0.7741,
+    0.9537
+   ],
+   "fixed_claim": true
+  },
+  "forecast_as_fact": {
+   "n": 1,
+   "acceptable": 0,
+   "expected_exact": 0,
+   "unacceptable_determinate": 0,
+   "wilson95": [
+    0.0,
+    0.7935
+   ],
+   "fixed_claim": false,
+   "small_n": true
+  },
+  "forecast_borrowed_evidence": {
+   "n": 1,
+   "acceptable": 0,
+   "expected_exact": 0,
+   "unacceptable_determinate": 0,
+   "wilson95": [
+    0.0,
+    0.7935
+   ],
+   "fixed_claim": false,
+   "small_n": true
+  },
+  "forecast_weakened": {
+   "n": 1,
+   "acceptable": 1,
+   "expected_exact": 1,
+   "unacceptable_determinate": 0,
+   "wilson95": [
+    0.2065,
+    1.0
+   ],
+   "fixed_claim": false,
+   "small_n": true
+  },
+  "full_support": {
+   "n": 47,
+   "acceptable": 43,
+   "expected_exact": 43,
+   "unacceptable_determinate": 1,
+   "wilson95": [
+    0.8007,
+    0.9664
+   ],
+   "fixed_claim": false
+  },
+  "high_overlap_insufficient": {
+   "n": 28,
+   "acceptable": 28,
+   "expected_exact": 28,
+   "unacceptable_determinate": 0,
+   "wilson95": [
+    0.8794,
+    1.0
+   ],
+   "fixed_claim": true,
+   "small_n": true
+  },
+  "length_matched_noise": {
+   "n": 47,
+   "acceptable": 47,
+   "expected_exact": 46,
+   "unacceptable_determinate": 0,
+   "wilson95": [
+    0.9244,
+    1.0
+   ],
+   "fixed_claim": true
+  },
+  "length_matched_noise_with_claim_numbers": {
+   "n": 47,
+   "acceptable": 39,
+   "expected_exact": 39,
+   "unacceptable_determinate": 8,
+   "wilson95": [
+    0.6986,
+    0.9111
+   ],
+   "fixed_claim": true
+  },
+  "other_document_substitution": {
+   "n": 47,
+   "acceptable": 47,
+   "expected_exact": 47,
+   "unacceptable_determinate": 0,
+   "wilson95": [
+    0.9244,
+    1.0
+   ],
+   "fixed_claim": true
+  },
+  "placeholder": {
+   "n": 47,
+   "acceptable": 47,
+   "expected_exact": 47,
+   "unacceptable_determinate": 0,
+   "wilson95": [
+    0.9244,
+    1.0
+   ],
+   "fixed_claim": false
+  },
+  "random_irrelevant": {
+   "n": 47,
+   "acceptable": 47,
+   "expected_exact": 47,
+   "unacceptable_determinate": 0,
+   "wilson95": [
+    0.9244,
+    1.0
+   ],
+   "fixed_claim": true
+  },
+  "restored_match": {
+   "n": 27,
+   "acceptable": 26,
+   "expected_exact": 26,
+   "unacceptable_determinate": 0,
+   "wilson95": [
+    0.8172,
+    0.9934
+   ],
+   "fixed_claim": true,
+   "small_n": true
+  },
+  "same_document_non_rationale": {
+   "n": 28,
+   "acceptable": 25,
+   "expected_exact": 25,
+   "unacceptable_determinate": 3,
+   "wilson95": [
+    0.728,
+    0.9629
+   ],
+   "fixed_claim": true,
+   "small_n": true
+  },
+  "same_topic_non_rationale": {
+   "n": 32,
+   "acceptable": 32,
+   "expected_exact": 32,
+   "unacceptable_determinate": 0,
+   "wilson95": [
+    0.8928,
+    1.0
+   ],
+   "fixed_claim": true
+  }
+ },
+ "forecast_diagnostic": {
+  "typed.c07": {
+   "own": "NOT_ENOUGH_INFO",
+   "weaken": "REFUSAL",
+   "borrowed": "NOT_ENOUGH_INFO",
+   "diagnostic": "SCOPE_NOT_REFUSED — answered with a label instead of a refusal"
+  }
+ }
+}
